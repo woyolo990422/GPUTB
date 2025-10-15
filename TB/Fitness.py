@@ -10,7 +10,7 @@ from utilities.Index import Index
 import os
 import random
 import matplotlib
-matplotlib.use('Agg')  
+matplotlib.use('TkAgg')  
 import matplotlib.pyplot as plt
 
 class Fitness(object):

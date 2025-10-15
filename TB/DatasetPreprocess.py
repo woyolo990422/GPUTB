@@ -280,7 +280,7 @@ class DatasetPrepocess(object):
                             kpoints=kpoints,#.reshape(-1),#.unsqueeze(0),
                             frame_offset=frame_index*torch.ones(edge_index_hop.shape[1],dtype=int),
                             frame_symbols=frame.symbols,
-                            eigs_ref=eigs_ref[frame_index].unsqueeze(0),#.reshape(-1),
+                            eigs_ref=eigs_ref[frame_index],#.reshape(-1),#.unsqueeze(0),
                             edge_index_hop=edge_index_hop,
                             num_edge=edge_index_hop.shape[1],
                             d_hop=torch.from_numpy(d_hop).to(torch.float32),

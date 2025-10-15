@@ -16,7 +16,7 @@ class For_lsqt(object):
         self.tbmodel = tbmodel
         self.input = input
         self.tbmodel.cutoff = self.input["cutoff"]
-        self.tbmodel.load_state_dict(torch.load(self.input["model_init_path"], map_location=torch.device('cpu')), strict=False)
+        self.tbmodel.load_state_dict(torch.load(self.input["model_init_path"]), strict=False)
         self.GPUMD_format = {}
         self.dataloader=self.tbmodel.dataloader
 
