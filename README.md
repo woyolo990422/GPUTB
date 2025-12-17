@@ -1,4 +1,10 @@
-eexample-Si in folder
+# Introduction
+`GPUTB` is an open-source software package designed to construct orthogonal Hamiltonians using machine learning SK parameters. It supports energy band structures of density functional types as learning targets.
+
+# Contributors
+GPUTB is developed by Prof. Jian Sun's group (https://sun.nju.edu.cn) at the School of Physics at Nanjing University.
+
+example-Si in folder
 
 **Install:**
 
@@ -16,18 +22,11 @@ torch_geometric
 
 
 
-If you use **GPUTB** in your research, please cite:
+# Citations
+| Reference | cite for what                         |
+| --------- | ------------------------------------- |
+| [1]    | for any work that used `GPUTB`        |
 
-Wang, Y., Liang, Z., Ding, C., Wang, J., Fan, Z., Wang, H.-T., Xing, D., & Sun, J.  
-*GPUTB: Efficient Machine Learning Tight-Binding Method for Large-Scale Electronic Properties Calculations.*  
-Computational Materials Today, 100039 (2025).
+# Reference
 
-```bibtex
-@article{wang2025gputb,
-  title   = {GPUTB: Efficient Machine Learning Tight-Binding Method for Large-Scale Electronic Properties Calculations},
-  author  = {Wang, Yunlong and Liang, Zhixin and Ding, Chi and Wang, Junjie and Fan, Zheyong and Wang, Hui-Tian and Xing, Dingyu and Sun, Jian},
-  journal = {Computational Materials Today},
-  pages   = {100039},
-  year    = {2025},
-  publisher = {Elsevier}
-}
+[1] 1. Wang, Y. et al. GPUTB: Efficient machine learning tight-binding method for large-scale electronic properties calculations. Computational Materials Today, 8, 100039 (2025). https://doi.org/10.1016/j.commt.2025.100039
