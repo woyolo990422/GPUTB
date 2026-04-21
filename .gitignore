@@ -3,5 +3,6 @@ __pycache__/
 *.pyc
 
 .vscode
-code.docx
 GPUTB.zip
+*.zip
+*.docx
